@@ -80,7 +80,7 @@ export function Form({ feedbackType, onFeedbackCanceled, onFeedbackSent }: Props
 
         <View style={styles.titleContainer}>
           <Image
-            source={feedbackTypeInfo.image.source}
+            source={feedbackTypeInfo.image}
             style={styles.image}
           />
           <Text style={styles.titleText}>

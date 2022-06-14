@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "http://192.168.0.58:3333"
+  baseURL: "https://nlw-return-impulse-production-fbf2.up.railway.app"
 });
